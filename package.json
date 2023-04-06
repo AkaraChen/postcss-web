@@ -1,0 +1,30 @@
+{
+  "name": "postcss-web",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "build:playground": "npm run build && vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.2.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "process": "^0.11.10",
+    "react": "18.3.0-next-b14f8da15-20230403",
+    "react-dom": "18.3.0-next-b14f8da15-20230403",
+    "rollup": "^3.20.2",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "vite": "^4.2.1"
+  }
+}
